@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "text": "Create app for project",
+      "tags": ["app", "project"]
+    },
+    {
+      "id": 2,
+      "text": "Deploy project",
+      "tags": ["project"]
+    }
+  ],
+  "tags": [
+    {
+      "id" : 1,
+      "value" : "all"
+    },
+    {
+      "id": 2,
+      "value": "app"
+    },
+    {
+      "id": 3,
+      "value": "project"
+    }
+  ]
+}

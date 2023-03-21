@@ -1,0 +1,57 @@
+.tags {
+  padding: 20px;
+  @include flex(center, center, column);
+  background-color: $dark;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &__creater {
+    @include flex(center, space-around);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    margin-right: 10px;
+  }
+
+  &__list {
+    @include flex (start, start);
+    gap: 10px;
+  }
+
+  &__icon {
+    vertical-align: bottom;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  &__item {
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+    background-color: $dark-hover;
+    padding: 5px;
+    border-radius: 10px;
+
+    & * {
+      display: inline-block;
+    }
+
+    @include flex(center, space-between, row);
+  }
+
+  &__select {
+    cursor: pointer;
+    select {
+      border-radius: 10px;
+      background-color: $dark-hover;
+      min-height: 42px;
+      color: $light;
+    }
+  }
+}
