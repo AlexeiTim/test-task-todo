@@ -1,0 +1,6 @@
+.notes {
+  &__list {
+    @include flex(auto,center, column);
+    gap:10px;
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: $background;
+  color: $mainText;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input__word {
+  margin-right: 4px;
+}
+
+.active {
+  color: $dark-active;
+}
